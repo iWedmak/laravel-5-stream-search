@@ -1,0 +1,23 @@
+{
+    "name": "iwedmak/stream-search",
+    "description": "Search in some video online stream sites, laravel 5",
+    "keywords": ["laravel","illuminate","curl","useragent","stream","video","online","vodlocker"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "iWedmak Om",
+            "email": "iwedmak@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "laravel/framework": "5.*   ",
+        "iwedmak/extra-curl": "*",
+        "yangqi/htmldom": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "iWedmak\\StreamSearch\\": "src/"
+        }
+    }
+}
