@@ -7,7 +7,7 @@ class Search
 
     public static function url($url_template, $str, $page=0)
     {
-        $string=urlencode(str_replace( array( '\'', '"', ',', "'", "!" , ';', '<', '>', ')', '('), '', $str));
+        $string=urlencode(str_replace( array( '\'', '"', ',', "'", "!" , ';', '<', '>', ')', '(', '.'), '', $str));
         if($page>=1)
         {
             $search_string = str_replace("{searchString}", $string, $url_template);
